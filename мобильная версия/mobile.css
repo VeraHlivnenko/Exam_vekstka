@@ -137,20 +137,26 @@ h2{
 
 
 .otzyv{
-	border: 4px;
-	border-radius: 25px;
-	border-color: #7d3334;
-	
+	padding:20px;
+	-webkit-border-radius:25px;
+	outline: 1px solid #7d3334;
+	margin-top:10px;
 }
 .otzyv2{
 	font-size:250%;
 	color:#c31e0a;
 	font-weight :bold;
 	float: right;
-    width: 50%;
+    width: 60%;
 }
 
-
+.dostavka{
+	
+	float: right;
+    width: 40%;
+	margin-top:1%;
+	margin-right:auto;
+}
 
 
 
