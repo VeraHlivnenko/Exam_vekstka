@@ -1,0 +1,167 @@
+/* === Reset style all browsers === */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li,
+fieldset, form, label, legend, article, aside, figure, figcaption, 
+footer, header, menu, nav, section, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing:border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+	text-decoration: none;
+  cursor: pointer;
+}
+
+html{
+	font-size: 10px;
+	font-family: 'Arial Regular', 'Arial', sans-serif;
+	color: #69747c;
+}
+body{ background-color:white;
+
+}
+/* === Основной блок === */
+
+.menu{
+	float: left;
+    width: 25%;
+	
+}
+#logo{
+	float: left;
+    width: 25%;
+}
+
+.slova{
+	float: right;
+    width: 25%;
+	font-size: 240%;
+	color: #db131e;
+	font-weight :bold;
+	text-align:center;
+}
+
+
+.line{
+	background-color:#be1a18;
+	width:100%;
+	height:22px;
+	clear: both;
+}
+
+/* === пицца === */
+
+
+h1{
+	
+	font-size: 500%;
+	color: #b71e19;
+	font-weight :bold;
+	text-align:center;
+	
+}
+
+
+.menuPizza{
+	margin-top: 33px;
+	position: relative;
+	height:100%;
+	display:inline-block;
+}
+.pizza{
+	
+	float: left;
+    width: 50%;
+	
+}
+	
+.opisanie{
+	float: right;
+    width: 50%;
+}
+h2{
+	font-size: 400%;
+	color: #b42819;
+	font-weight :bold;
+	text-align:center;
+
+}
+.sostav{
+	font-size: 110%;
+	color: black;
+	font-weight :bold;
+}
+.text {
+	
+	font-size: 200%;
+	color: black;
+	
+}
+
+.strelka{
+	text-align:center;
+	
+}
+.vverx {
+	text-align:center;
+	
+}
+.ssylka{
+	font-size:450%;
+	color:#c4190f;
+	font-weight :bold;
+}
+
+.line2{
+	margin-top:49px;
+	background-color:#be1a18;
+	width:100%;
+	height:36px;
+	
+}
+.logoOtz{
+	float: left;
+    width: 50%;
+	margin-left:5%;
+	margin-top:1%;
+}
+
+
+.otzyv{
+	border: 4px;
+	border-radius: 25px;
+	border-color: #7d3334;
+	
+}
+.otzyv2{
+	font-size:250%;
+	color:#c31e0a;
+	font-weight :bold;
+	float: right;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
