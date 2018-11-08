@@ -36,6 +36,16 @@ body{ background-color:white;
     width: 25%;
 	
 }
+.menu2{
+	font-size:150%;
+	color:#db131e;
+	font-weight:bold;
+}
+a.menu2:hover {
+	color:green;
+	text-decoration: underline; 
+}
+
 #logo{
 	float: left;
     width: 25%;
@@ -107,7 +117,7 @@ h2{
 	
 }
 
-.strelka{
+#strelka{
 	text-align:center;
 	
 }
@@ -120,6 +130,9 @@ h2{
 	color:#c4190f;
 	font-weight :bold;
 }
+
+
+/* === footer === */
 
 .line2{
 	margin-top:49px;
@@ -145,7 +158,7 @@ h2{
 .otzyv2{
 	font-size:250%;
 	color:#c31e0a;
-	font-weight :bold;
+	font-weight:bold;
 	float: right;
     width: 60%;
 }
@@ -153,17 +166,39 @@ h2{
 .dostavka{
 	
 	float: right;
-    width: 40%;
-	margin-top:1%;
-	margin-right:auto;
+   	margin-top:1%;
+
+}
+
+.otzyv:hover {
+ 	padding:20px;
+	-webkit-border-radius:25px;
+	outline: 5px solid #7d3335;
+	margin-top:10px;
+	
+	
+}
+.copy{
+	    clear: both;
+		font-size:110%;
+		color:black;
+		font-weight:bold;
 }
 
 
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
 
-
-
-
-
+} 
+	ul.menu>li:hover>ul.submenu{
+    display: block;
+}
 
 	
 
