@@ -200,7 +200,23 @@ ul.submenu {
     display: block;
 }
 
-	
+	@media screen and (max-width:566px){
+		p.otzyv2{
+			display: none;
+		}
+		
+		div.pizza{
+			float:none;
+			
+		}
+		p.text{
+			float:none;
+		}
+		
+		div.slova{
+			float:none;
+		}
+	}
 
 
 
