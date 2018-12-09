@@ -183,9 +183,18 @@ h1#zag1{
 	position:relative;
 	top: 160px;
 	left: 70px;
-	opacity:0.45;
+	opacity:0.9;
 	
 }
+.data{
+	color: white;
+	font-size: 140%;
+	font-weight :bold;
+	float:right;
+	width: 83%;
+	
+}
+
 .line{
 	background-color:#cb3123;
 	width:100%;
