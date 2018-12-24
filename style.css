@@ -53,193 +53,248 @@ body{ background-color:white;
 }
 /* === Основной блок === */
 
-.MAINBOX{
-    overflow-x: hidden !important;
-}
+	.MAINBOX{
+		overflow-x: hidden !important;
+	}
 
-.firstPage{
-	margin: auto;
-	background-position: center;
-	height:850px;
-	background-image:url(img/zastavka.jpg);
-	width:100%;
-}
-.nomer{
-text-align: center;
-color: white;
-font-size: 30px;
-font-family: 'bitter-regular-webfont';	
+	.firstPage{
+		margin: auto;
+		background-position: center;
+		height:850px;
+		background-image:url(img/zastavka.jpg);
+		width:100%;
+	}
+	.nomer{
+		text-align: center;
+		color: white;
+		font-size: 30px;
+		font-family: 'bitter-regular-webfont';	
 
-}
+	}
 
-.menu{
-	
-	height:100px;
-    width: 100%;
-	background-color: white;
-	opacity: 0.75;
-	position: fixed;
-	
-}
+	.menu{
+		
+		height:100px;
+		width: 100%;
+		background-color: white;
+		opacity: 0.75;
+		position: fixed;
+		
+	}
 
-nav{
-	margin:0 auto;
-	width: 100%;
-	
-}
+	nav{
+		margin:0 auto;
+		width: 100%;
+		
+	}
 
-a.lin2{
-	font-size: 150%;
-	color: red;
-	font-family: 'exo2-black-webfont';
-	
-}
-.links{
-	display: inline-block;
-	position:relative;
-	margin-right: 10%; 
-	
-}
-.lin1{
-	
-	float: left;
-    width: 25%;
-	font-size: 220%;
-	color: red;
-	margin-top:1%;
-	font-family: 'exo2-black-webfont';
-}
-
-/* ===  Возможно ли убрать тут opacity? === */
-a:hover.lin2 {color: white;
-	padding: 3%;
-	width: 25%;
-	background-color:red;
-	font-size: 150%;
-	font-family: 'exo2-black-webfont';
-
-	
-}
-
-/* ===  Возможно ли убрать тут opacity? === */
-.lin3{
-	float: left;
-    width: 25%;
-	color: red;
-}
-
-h1#zag1{
-	font-family: 'exo2-black-webfont';
-	font-size: 400%;
-	color: red;
-	text-align: center;
-	margin-top:3%;
-	
-}
-
-.Pizza1{
-	margin-top:3%;
-}
-
-.mainPizza{
-	
-	float: left;
-    width: 25%;
-	
-	margin-right:5%;
-	margin-left:3%;
-	max-width: 100%;
- height: auto;
-  position: relative;
-}
-
-.pizza1{
-	
-	position: relative;  
-    left: 20%;
-}
-
-.pizzaText{
-	
-	Font-size: 250%;
-	color: red;
-	text-align: center;
-}
-#Supri{
-	text-decoration:underline;
-}
-.thirdPage {
-	margin-top: 40%;
-	height:748px;
-	background-image:url(img/pizza2.jpg);
-	background-position: center;
-	
-	position: relative;
-	width:100%;
-	clear: both;
-}
-#forma1 {
-	
-	position:relative;
-	top: 160px;
-	left: 70px;
-	opacity:0.9;
-	
-}
-.data{
-	color: white;
-	font-size: 140%;
-	font-weight :bold;
-	float:right;
-	width: 83%;
-	
-}
-
-.line{
-	background-color:#cb3123;
-	width:100%;
-	height:15px;
-	
-}
-.kopirhit{
-	margin-top: 20%;
-	margin-left: 1%;
-	font-size: 12px;
-	color: black;
-	font-weight :bold;
-}
-.text{
-	text-align:center;
-	font-size: 30px;
-	color: #9e0202;
-	font-weight:bold;
-	float:left;
-	width: 40%;
-	
-}
-footer{
-	position:relative;
-}
-.logo1 {
-	float:left;
-	width: 25%;
-}
-.card {
-	float:right;
-	margin-top: 6%;
-	
-}
-.ssylki{float:right;
-	
-}
+	a.lin2{
+		font-size: 150%;
+		color: red;
+		font-family: 'exo2-black-webfont';
+		
+	}
+	.links{
+		display: inline-block;
+		position:relative;
+		margin-right: 10%; 
+		
+	}
+	.lin1{
+		
+		float: left;
+		width: 25%;
+		font-size: 220%;
+		color: red;
+		margin-top:1%;
+		font-family: 'exo2-black-webfont';
+	}
 
 
-	
-	
-	
+	a:hover.lin2 {
+		color: white;
+		padding: 3%;
+		width: 25%;
+		background-color:red;
+		font-size: 150%;
+		font-family: 'exo2-black-webfont';
+
+		
+	}
+
+
+	.lin3{
+		float: left;
+		width: 25%;
+		color: red;
+	}
+/* === меню с пиццамии === */
+	h1#zag1{
+		font-family: 'exo2-black-webfont';
+		font-size: 400%;
+		color: red;
+		text-align: center;
+		margin-top:3%;
+		
+	}
+
+	.Pizza1{
+		margin-top:3%;
+	}
+
+	.mainPizza{
+		
+		float: left;
+		width: 25%;
+		
+		margin-right:5%;
+		margin-left:3%;
+		max-width: 100%;
+		height: auto;
+		position: relative;
+	}
+
+	.pizza1{
+		
+		position: relative;  
+		left: 20%;
+		cursor:zoom-in;
+	}
+
+	.pizzaText{
+		
+		Font-size: 250%;
+		color: red;
+		text-align: center;
+	}
+	 #Supri{
+		text-decoration:underline;
+	}
+	/* === контейнер для счетчика корзины === */
+	 button {
+		Font-size:300%;
+		position: relative;  
+		left: 40%;
+		border-radius: 50%;
+		background:#cb3123;
+		
+		
+	}
+	.counter{
+		Font-size:300%;
+		position: relative;  
+		left: 40%;
+		
+	}
+
+/* === третий блок с формой=== */
+	.thirdPage {
+		margin-top: 40%;
+		height:748px;
+		background-image:url(img/pizza2.jpg);
+		background-position: center;
+		
+		position: relative;
+		width:100%;
+		clear: both;
+	}
+	#forma1 {
+		
+		position:relative;
+		top: 160px;
+		left: 70px;
+		opacity:0.9;
+		
+	}
+	.data{
+		color: white;
+		font-size: 140%;
+		font-weight :bold;
+		float:right;
+		width: 83%;
+		
+	}
+
+
+/* === футтер === */
+
+
+	.line{
+		background-color:#cb3123;
+		width:100%;
+		height:15px;
+		
+	}
+	.kopirhit{
+		margin-top: 20%;
+		margin-left: 1%;
+		font-size: 12px;
+		color: black;
+		font-weight :bold;
+	}
+	.text{
+		text-align:center;
+		font-size: 30px;
+		color: #9e0202;
+		font-weight:bold;
+		float:left;
+		width: 40%;
+		
+	}
+	footer{
+		position:relative;
+	}
+	.logo1 {
+		float:left;
+		width: 25%;
+	}
+	.card {
+		float:right;
+		margin-top: 6%;
+		
+	}
+	.ssylki{
+		float:right;
+		
+	}
+
 
 	
+	.okno {
+		position: absolute;
+		height:100%;
+		width:100%;
+		top:0;
+		left:0;
+		display:none;
+		text-align:center;
+	}
+	.fon {
+		background:rgba(0,0,0,0.3);
+		position:fixed;
+		z-index:1;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: auto;
+		height: auto;
+	}
+
+
+	.yvelich_img {
+		position: fixed;
+		z-index:2;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		max-height: 90%;
+	}
+
+	.resize img{ cursor: pointer; }	
+
 	
+	/* === подключение медиа === */
 	
 
 @media screen and (max-width:825px) {

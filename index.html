@@ -10,15 +10,15 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/ico">
 	
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
   
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  
-  <script>
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
-  </script>
+	<script>
+		$( function() {
+			$( "#datepicker" ).datepicker();
+		} );
+	</script>
 	
  </head>
 <body>
@@ -43,43 +43,72 @@
 	</div>
 	</header>
 	<article>
-		<h1 id="zag1"> пицца</h1>
+		<h1 id="zag1"  > пицца</h1>
 		
 	
 			
-				<div class="Pizza1">
-					<div  class=" mainPizza " >   <img  class="pizza1"  src="img/pizza.jpg"   alt="пицца Супри" > 
-						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 12  </p>  </div>
-					<div class="mainPizza " >    <img class="pizza1" src="img/pizza.jpg"   alt="пицца Супри" >  
-						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 9  </p>  </div>
-					<div class=" mainPizza "  >    <img  class="pizza1"  src="img/pizza.jpg"   alt="пицца Супри" > 
-						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 10,50  </p>  </div>
+			<div class="resize">	<div class="Pizza1">
+					<div  class=" mainPizza " >   <img  class="pizza1"  src="img/pizza.jpg"   alt="пицца Супри"  > 
+						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 12  <br> </p>  
+						<button class="update" type="button" > +</button>
+						<span class="counter" id="1">0</span>
+						<button class="downgrade" type="button"> −</button>
 						
-				</div>	
-					
-					
+						
+					</div>
+					<div class="mainPizza " >    <img class="pizza1" src="img/pizza.jpg"   alt="пицца Супри"  >  
+						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 9  </p>  
+						<button class="update" type="button" > +</button>
+						<span class="counter" id="1">0</span>
+						<button class="downgrade" type="button"> −</button>
+						
+						</div>
+					<div class=" mainPizza "  >    <img  class="pizza1"  src="img/pizza.jpg"   alt="пицца Супри" > 
+						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 10,50  </p>  
+						<button class="update" type="button" > +</button>
+						<span class="counter" id="1">0</span>
+						<button class="downgrade" type="button"> −</button>
+					</div>
+					</div>	
+					</div>
+			<div class="resize">		
 				<div class ="Pizza2">
-					<div  class=" mainPizza " >  <a  href="#"> <img  class="pizza1"  src="img/pizza.jpg"   alt="пицца Супри" > </a>
-						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 5  </p>  </div>
-					<div class="mainPizza " >  <a class="pizza1"   href="#">  <img src="img/pizza.jpg"   alt="пицца Супри" >  </a>
-						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 15  </p>  </div>
-					<div class=" mainPizza "  >  <a  class="pizza1"  href="#">  <img src="img/pizza.jpg"   alt="пицца Супри" >  </a>
-						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 13  </p>  </div>
-			
+					<div  class=" mainPizza " >   <img  class="pizza1"  src="img/pizza.jpg"   alt="пицца Супри" > </a>
+						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 5  </p>  
+						<button class="update" type="button" > +</button>
+						<span class="counter" id="1">0</span>
+						<button class="downgrade" type="button">−</button>
+						
+						</div>
+					<div class="mainPizza " >   <img  class="pizza1"  img src="img/pizza.jpg"   alt="пицца Супри" >  </a>
+						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 15  </p>  
+						<button class="update" type="button" > +</button>
+						<span class="counter" id="1">0</span>
+						<button class="downgrade" type="button">− </button>
+						
+						</div>
+					<div class=" mainPizza "  >   <img  class="pizza1" img src="img/pizza.jpg"   alt="пицца Супри" >  </a>
+						<p class="pizzaText"> <span id="Supri" >   Пицца Супри </span><br> 13  </p>  
+						<button class="update" type="button" > +</button>
+						<span class="counter" id="1">0</span>
+						<button class="downgrade" type="button">− </button>
+						</div>
+			</div>	
 				</div>
 	</article>
 	
 	<div class="thirdPage">
 		<div id= "forma1">
 			<form  name= "anketa"  method= "post"  >
+			
 				<textarea  id="first" name= "ocenka"    placeholder="Ваш номер телефона..." cols="35" rows="2"  ></textarea>
-				<p class ="data">Date: <input type="text" id="datepicker"></p>
+				<p class ="data">Date: <input type="text" id="datepicker"></span></p>
 				<br>
 				<br>
 				<textarea  id="first" name= "ocenka"    placeholder="Ваш заказ..." cols="35" rows="23"  ></textarea>
 				<br>
 				
-	            <input  id="first"   type="submit" name= "otpravka" value= "Отправить">
+	            <input  id="first"   type="submit" name= "otpravka" onclick="validate(this.form)"   value= "Отправить">
 				
 			</form>
 		
@@ -108,15 +137,15 @@
 	
 		
 	</div>
-	<script>
-	function newWindow()
-			{
-			var newWin = window.open('https://www.mastercard.by/ru-by.html','MasterCard', 'width=500,height=500,left=500,top=200'  );
-			}	
-	function newwWindow()
-			{
-			var newwWin = window.open('https://www.apple.com/ru/ios/app-store/','MasterCard', 'width=500,height=500,left=500,top=200'  );
-			}	
+	<script>	
+		function newWindow()
+				{
+				var newWin = window.open('https://www.mastercard.by/ru-by.html','MasterCard', 'width=500,height=500,left=500,top=200'  );
+				}	
+		function newwWindow()
+				{
+				var newwWin = window.open('https://www.apple.com/ru/ios/app-store/','MasterCard', 'width=500,height=500,left=500,top=200'  );
+				}	
 	</script>
 	
 	
